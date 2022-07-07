@@ -1,0 +1,86 @@
+.section_cv {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.section_cv article {
+    margin-bottom: 50px;
+    margin-bottom: 100px;
+    width: auto;
+    padding: 30px;
+}
+
+
+.section_cv article p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 24px;
+}
+
+.section_cv article a {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 26px;
+}
+
+.section_cv article li {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 26px;
+}
+
+.section_cv article h2 {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.section_cv article img {
+    width: 110px;
+}
+
+/*************INICIO **************/
+
+#inicio img {
+    background-color: bisque;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+#inicio h2 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    width: 300px;
+    text-align: center;
+}
+
+#inicio p {
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+#inicio a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    display: block;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: .8em;
+}
+
+/************* CONTACTO **************/
+
+
+
+/************* ... **************/
+/************* ... **************/
+/************* ... **************/

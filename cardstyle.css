@@ -1,0 +1,76 @@
+.container_blog{
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    max-width: 1100px;
+    margin: auto;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width:328px;
+    height: 500px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 5px ;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, .2);
+    cursor: default;
+    transition: all 400ms ease;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, .4);
+    transform: translateY(-3%);
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    object-fit:contain;
+    padding-bottom: 5px;
+    
+}
+
+.card div h3{
+    margin: 2px;
+    font-family: 'Oxygen', sans-serif;
+}
+.card div p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    margin: 10px;
+    text-align:center
+}
+
+.card div a {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, .2);
+    border-radius: 8px;
+    padding: 6px;
+    margin: 7px;
+    transition: all 200ms ease;
+    
+}
+
+.card div a:hover {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, .4);
+    color: rgba(0, 255, 255, 0.726);
+    border:1px solid  rgba(0, 255, 255, 0.767);
+}
+
+.blog_desciption{
+    border: 1px solid black;
+    margin: auto;
+    border-bottom: none;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}
